@@ -7,7 +7,7 @@ Example format:
 ----------------------------------------
 - example1;example2;example3;
 ----------------------------------------
-This table above would be ar 2D array that has 1 rows and 3 columns.
+This table above would result in a 2D array that has 1 row and 3 columns.
 
 # Usage:
 ```c#

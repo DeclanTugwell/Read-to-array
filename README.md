@@ -5,11 +5,12 @@ An example of a suitably formatted text file is as follows...
 
 Example format:
 ----------------------------------------
-example1.1;example2.1;example3.1;
-example1.2;example2.2;example3.2;
-example1.3;example2.3;example3.3;
+- example1;example2;example3;
 ----------------------------------------
+This table above would be ar 2D array that has 1 rows and 3 columns.
 
-This table above would be ar 2D array that has 3 rows and 3 columns.
-
+# Usage:
+```c#
+String[,] example = (string[,])To2DArray("C:\Users\example\source\repos\files\example.txt")
+```
 This is my first c# project and I made it in order to practise and learn more about c# as well as coding in general.
